@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Form</title>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<style>
+    body {background-color: rgb(87, 170, 218); font-family:Georgia, 'Times New Roman', Times, serif;}
+    img {border:6px solid rgb(1, 62, 97);}
+    h1 {color: rgb(0, 0, 0);}
+    p  {color: rgb(5, 60, 70);background-color: rgb(138, 212, 255); border:2px solid rgb(0, 98, 155);}
+    ul {color: rgb(22, 90, 73);background-color: rgb(124, 207, 255); border:2px solid rgb(0, 98, 155);}
+    ol {color: rgb(34, 75, 63);background-color: rgb(124, 207, 255); border:2px solid rgb(0, 98, 155);}
+    a {color: rgb(6, 78, 56);background-color: rgb(99, 188, 240)}
+    h2 {border:2px solid rgb(69, 187, 255);}
+</style>
+
+<body>
+<div><center>
+    <h1>Website Survey</h1>
+    <br>
+
+    <!--Links-->
+    <!--Internal--> &nbsp;&nbsp;&nbsp;
+    <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;
+    <a href="table.html">Table</a> &nbsp;&nbsp;&nbsp;
+    <a href="form.html">Form</a> &nbsp;&nbsp;&nbsp;
+    <!--External-->
+    <a href="https://Google.com" target="_blank">Google</a>
+
+    <!--Survey-->
+    <form action="submitted.html" method="get">
+        <!--Name-->
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br>
+        <!--Email-->
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+        <!--Website Rating-->
+        <label for="rating">How would you rate this website?</label><br>
+        <input type="radio" id="1" name="rating" value="1">
+        <label for="1">1</label>
+        <input type="radio" id="2" name="rating" value="2">
+        <label for="2">2</label>
+        <input type="radio" id="3" name="rating" value="3">
+        <label for="3">3</label>
+        <input type="radio" id="4" name="rating" value="4">
+        <label for="4">4</label>
+        <input type="radio" id="5" name="rating" value="5">
+        <label for="5">5</label><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <br>
+
+
+    <!--Footer-->
+    <footer>Copyrights ©2026 &nbsp;&nbsp;&nbsp; <a href="mailto:behaggp5539@student.faytechcc.edu">Contact Us!</a></footer>
+</center></div>
+</body>
+</html>
